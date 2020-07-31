@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HomeWork15</string>
+    <string name="add">добавить</string>
+    <string name="add2">добавить</string>
+    <string name="addd">добавить</string>
+    <string name="number">добавить номер</string>
+    <string name="text">введите текст</string>
+    <string name="numb">введите номер</string>
+    <string name="dob">добавить</string>
+</resources>
