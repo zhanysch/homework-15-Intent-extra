@@ -25,12 +25,12 @@ class MainActivity : BaseActivity(), View.OnClickListener {
 
         when (view?.id){
             R.id.add1-> {
-                Web("вход в браузер")
+                Web("вход в браузер") //(1)
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://$web"))
                 startActivity(intent)
             }
             R.id.add2 -> {
-                Phone("вход в телефон")
+                Phone("вход в телефон") //(2)
                 val intent=Intent(Intent.ACTION_DIAL, Uri.parse("tel: $phone"))
                 startActivity(intent)
             }
